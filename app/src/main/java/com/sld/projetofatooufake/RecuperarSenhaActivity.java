@@ -29,8 +29,8 @@ public class RecuperarSenhaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_recuperar_senha);
 
         loginTV = findViewById(R.id.idloginTV);
-        buttonEnviarEmail = findViewById(R.id.idbuttonVoltarQuiz);
-        editTextRecuperarSenhaEmail = findViewById(R.id.ideditTextRecuperarSenhaEmail);
+        buttonEnviarEmail = findViewById(R.id.idbuttonExcluirUsuario);
+        editTextRecuperarSenhaEmail = findViewById(R.id.ideditTextSenha);
         mAuth = FirebaseAuth.getInstance();
 
         loginTV.setOnClickListener(new View.OnClickListener() {

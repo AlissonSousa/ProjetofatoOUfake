@@ -73,7 +73,7 @@
             android:textSize="30sp" />
 
         <Button
-            android:id="@+id/idbuttonVoltarQuiz"
+            android:id="@+id/idbuttonExcluirUsuario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/idTILConfirmPassword"

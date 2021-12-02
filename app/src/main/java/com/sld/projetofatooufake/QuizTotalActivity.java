@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class QuizTotalActivity extends AppCompatActivity {
 
@@ -23,7 +22,7 @@ public class QuizTotalActivity extends AppCompatActivity {
 
         textViewPontuacaoQuiz = findViewById(R.id.idtextViewPontuacaoQuiz);
         textViewPontuacaoQuizTotal = findViewById(R.id.idtextViewPontuacaoQuizTotal);
-        buttonVoltarQuiz = findViewById(R.id.idbuttonVoltarQuiz);
+        buttonVoltarQuiz = findViewById(R.id.idbuttonExcluirUsuario);
 
         Intent i = getIntent();
         int Score = i.getIntExtra("Score",0);

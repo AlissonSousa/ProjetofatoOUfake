@@ -17,6 +17,7 @@
         <entry key="..\:/ionic/ProjetoFF/app/src/main/res/font/poppins_medium.xml" value="0.1" />
         <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/activity_add_curso.xml" value="0.2" />
         <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/activity_covid19.xml" value="0.1" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/activity_excluir_usuario.xml" value="0.22" />
         <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/activity_fake_news.xml" value="0.14114583333333333" />
         <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/activity_login_cadastro.xml" value="0.22" />
@@ -35,7 +36,7 @@
         <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/fragment_favorites.xml" value="0.1" />
         <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/fragment_home.xml" value="0.33" />
         <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/fragment_notifications.xml" value="0.1" />
-        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/fragment_novidades.xml" value="0.115625" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/fragment_novidades.xml" value="0.13" />
         <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/fragment_pontuacao.xml" value="0.1" />
         <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/fragment_quiz.xml" value="0.2" />
         <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/fragment_search.xml" value="0.1" />

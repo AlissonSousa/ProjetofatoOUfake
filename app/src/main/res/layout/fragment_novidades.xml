@@ -7,44 +7,40 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/idTILUserRecuperarEmail"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="5dp"
         android:padding="5dp"
         android:textColor="@color/black"
-        android:textSize="18sp" >
+        android:textSize="18sp">
 
         <TextView
+            android:id="@+id/idTILUserNovidades"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/idTILUserRecuperarEmail"
             android:layout_marginTop="10dp"
             android:gravity="center"
             android:padding="10dp"
-            android:text="NOVIDADES"
+            android:text="Novidades"
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="20sp" />
+            android:textSize="28sp"
+            android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/idEmailLogado"
+
+        <WebView
+            android:id="@+id/idWebView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/idTILUserRecuperarEmail"
-            android:layout_marginTop="10dp"
-            android:gravity="center"
-            android:padding="10dp"
-            android:text="E-mail usuário"
-            android:textAlignment="center"
-            android:textAllCaps="false"
-            android:textColor="@color/white"
-            android:textSize="20sp" />
+            android:layout_height="422dp">
 
+        </WebView>
 
 
     </com.google.android.material.textfield.TextInputLayout>
+
+
 
 
 </RelativeLayout>

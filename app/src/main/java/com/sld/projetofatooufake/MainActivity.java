@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private TextView emailLogado;
 
+
     String usuarioID;
 
 
@@ -131,6 +132,11 @@ public class MainActivity extends AppCompatActivity {
                 FirebaseAuth.getInstance().signOut();
                 Intent i3 = new Intent(MainActivity.this,RecuperarSenhaActivity.class);
                 startActivity(i3);
+                finish();
+                return true;
+            case R.id.idExcluirUsur:
+                Intent i4 = new Intent(MainActivity.this,ExcluirUsuarioActivity.class);
+                startActivity(i4);
                 finish();
                 return true;
             default:
