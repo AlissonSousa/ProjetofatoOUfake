@@ -25,7 +25,7 @@ public class NovidadesFragment extends Fragment {
         webView = (WebView) myFragment.findViewById( R.id.idWebView);
         webView.setWebViewClient(new WebViewClient());
 
-        webView.loadUrl("https://twitter.com/hashtag/P%C3%A1triaVacinada?src=hashtag_click");
+        webView.loadUrl("https://g1.globo.com/tudo-sobre/ministerio-da-saude/");
 
 
 
