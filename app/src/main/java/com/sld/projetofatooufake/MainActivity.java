@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             case R.id.idCompartilhar:
                 Toast.makeText(this, "Compartilhando...", Toast.LENGTH_SHORT).show();
-                gotoUrl("https://drive.google.com/file/d/12Shj-YYaGvS38Yz3b6JcSuzCfQHzWziN/view?usp=sharing");
+                gotoUrl("https://drive.google.com/file/d/1s8K-c894CYTtWtJZiB3bBbWej3sXOGKN/view?usp=sharing");
                 return true;
             case R.id.idAlterarSenha:
                 Toast.makeText(this, "Alterando Senha.", Toast.LENGTH_SHORT).show();
