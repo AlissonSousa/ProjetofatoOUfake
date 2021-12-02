@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -123,6 +124,7 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             case R.id.idCompartilhar:
                 Toast.makeText(this, "Compartilhando...", Toast.LENGTH_SHORT).show();
+                gotoUrl("https://drive.google.com/file/d/12Shj-YYaGvS38Yz3b6JcSuzCfQHzWziN/view?usp=sharing");
                 return true;
             case R.id.idAlterarSenha:
                 Toast.makeText(this, "Alterando Senha.", Toast.LENGTH_SHORT).show();
@@ -134,6 +136,11 @@ public class MainActivity extends AppCompatActivity {
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    private void gotoUrl(String s) {
+        Uri uri = Uri.parse(s);
+        startActivity(new Intent(Intent.ACTION_VIEW,uri));
     }
 
 
