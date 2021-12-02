@@ -29,7 +29,8 @@
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="20sp" />
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
 
 
@@ -53,6 +54,7 @@
             android:id="@+id/ideditTextRecuperarSenhaEmail"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
             android:ems="10"
             android:importantForAutofill="no"
             android:inputType="textEmailAddress"
@@ -82,10 +84,12 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/idTILConfirmPassword"
             android:layout_marginStart="25dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="25dp"
             android:text="Enviar Solicitação"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            app:icon="@drawable/ic_baseline_email_24"
+            app:iconGravity="textStart" />
 
         <!--Voltar a página de login-->
         <TextView
@@ -93,14 +97,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/idbuttonSalvar"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="30dp"
             android:gravity="center"
             android:padding="10dp"
             android:text="Volte para logar com seu usuário."
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
 
     </com.google.android.material.textfield.TextInputLayout>

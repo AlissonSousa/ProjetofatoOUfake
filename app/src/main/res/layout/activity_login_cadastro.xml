@@ -7,7 +7,16 @@
     android:background="@color/Azul_1"
     tools:context=".LoginCadastroActivity">
 
-
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Cadastre-se"
+        android:textColor="#F6F2F2"
+        android:textSize="34sp"
+        android:textStyle="bold" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/idTILUserName"
@@ -20,6 +29,8 @@
         android:padding="5dp"
         android:textColorHint="@color/black"
         app:hintTextColor="@color/black">
+
+
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/ideditTextEmail"
@@ -96,7 +107,9 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="25dp"
         android:text="Cadastrar"
-        android:textAllCaps="false" />
+        android:textAllCaps="false"
+        app:icon="@drawable/ic_baseline_person_add_24"
+        app:iconGravity="textStart" />
 
     <!--Voltar a página de login-->
     <TextView
@@ -111,7 +124,8 @@
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@color/white"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <!--progress bar as a loading indicator-->
     <ProgressBar

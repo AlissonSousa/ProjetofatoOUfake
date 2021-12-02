@@ -60,10 +60,10 @@ public class QuizFragment extends Fragment {
                     updateScore(mScore);
                     updateQuestion();
                     //This line of code is optiona
-                    Toast.makeText(getActivity(), "Fato!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Correto :D", Toast.LENGTH_SHORT).show();
 
                 }else {
-                    Toast.makeText(getActivity(), "Fake.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Incorreto :(", Toast.LENGTH_SHORT).show();
                     updateQuestion();
                 }
             }
@@ -82,10 +82,10 @@ public class QuizFragment extends Fragment {
                     updateScore(mScore);
                     updateQuestion();
                     //This line of code is optiona
-                    Toast.makeText(getActivity(), "Fato!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Correto :D", Toast.LENGTH_SHORT).show();
 
                 }else {
-                    Toast.makeText(getActivity(), "Fake.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Incorreto :(", Toast.LENGTH_SHORT).show();
                     updateQuestion();
                 }
             }

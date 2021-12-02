@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/Azul_1">
@@ -23,9 +24,9 @@
             android:layout_marginTop="40dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="Seja Bem Vindo!"
+            android:text="Informações: COVID 19"
             android:textColor="#FFFFFF"
-            android:textSize="34sp"
+            android:textSize="24sp"
             android:typeface="serif" />
     </com.google.android.material.textfield.TextInputLayout>>
 
@@ -50,7 +51,9 @@
             android:layout_marginTop="0dp"
             android:layout_marginEnd="0dp"
             android:text="Covid19"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            app:icon="@drawable/ic_baseline_library_books_24"
+            app:iconGravity="textStart" />
 
         <Button
             android:id="@+id/idbuttonTransmissao"
@@ -62,7 +65,9 @@
             android:layout_marginTop="0dp"
             android:layout_marginEnd="0dp"
             android:text="Transmissão"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            app:icon="@drawable/ic_baseline_library_books_24"
+            app:iconGravity="textStart" />
 
         <Button
             android:id="@+id/idbuttonProtecao"
@@ -74,7 +79,25 @@
             android:layout_marginTop="0dp"
             android:layout_marginEnd="0dp"
             android:text="Proteção"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            app:icon="@drawable/ic_baseline_library_books_24"
+            app:iconGravity="textStart" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="165dp"
+            android:layout_height="109dp"
+            android:layout_below="@id/idbuttonProtecao"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Quer saber mais informações sobre a COVID 19? Acesse:"
+            android:textColor="#F6F0F0"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+
+
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -100,7 +123,9 @@
             android:layout_marginTop="0dp"
             android:layout_marginEnd="0dp"
             android:text="Sintomas"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            app:icon="@drawable/ic_baseline_library_books_24"
+            app:iconGravity="textStart" />
 
         <Button
             android:id="@+id/idbuttonPrevencao"
@@ -112,7 +137,9 @@
             android:layout_marginTop="0dp"
             android:layout_marginEnd="0dp"
             android:text="Prevenção"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            app:icon="@drawable/ic_baseline_library_books_24"
+            app:iconGravity="textStart" />
 
         <Button
             android:id="@+id/idbuttonFakeNews"
@@ -124,9 +151,24 @@
             android:layout_marginTop="0dp"
             android:layout_marginEnd="0dp"
             android:text="Fake News"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            app:icon="@drawable/ic_baseline_library_books_24"
+            app:iconGravity="textStart" />
+
+        <ImageView
+            android:id="@+id/idimageViewURLYouTube"
+            android:layout_width="169dp"
+            android:layout_height="110dp"
+            android:layout_below="@id/idbuttonFakeNews"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/youtube" />
+
+
+
 
     </com.google.android.material.textfield.TextInputLayout>
+
+
 
 
 </RelativeLayout>

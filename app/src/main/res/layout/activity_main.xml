@@ -11,7 +11,77 @@
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/botton_navigation"/>
+        android:layout_above="@+id/botton_navigation">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/idTILBemVindo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="20dp"
+            android:hint="Digite seu e-mail."
+            android:padding="5dp"
+            android:textColorHint="@color/black"
+            app:hintTextColor="@color/black">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                app:srcCompat="@drawable/fatooufake" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView3"
+                android:textColor="@color/white"
+                android:textSize="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center"
+                android:text="Seja bem vindo!" />
+
+            <TextView
+                android:id="@+id/idemailLogado2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView2"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:text="Seja bem vindo!"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idInformacoesMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView2"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:text="Desenvolvido por Alisson Sousa em 2021"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/idInformacoesMain2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idInformacoesMain"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Todos os direitos reservados. Este sistema ou qualquer parte dele não pode ser reproduzido ou usado de forma alguma sem autorização expressa, por escrito, do desenvolvedor."
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/botton_navigation"
@@ -20,6 +90,8 @@
         android:layout_alignParentBottom="true"
         app:menu="@menu/bottom_navigation"
         android:background="?android:attr/windowBackground"/>
+
+
 
 
 </RelativeLayout>

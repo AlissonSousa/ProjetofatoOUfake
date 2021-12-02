@@ -65,7 +65,7 @@ public class LoginCadastroActivity extends AppCompatActivity {
                                 startActivity(i);
                                 finish();
                             }else{
-                                Toast.makeText(LoginCadastroActivity.this, "Falha ao cadastradar o usuário!", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(LoginCadastroActivity.this, "Falha ao cadastradar o usuário, a senha deve ter 6 dígitos.", Toast.LENGTH_SHORT).show();
                             }
                         }
                     });

@@ -1,12 +1,14 @@
 package com.sld.projetofatooufake;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -32,7 +34,9 @@ public class HomeFragment extends Fragment {
     private Button buttonSintomas;
     private Button buttonPrevencao;
     private Button buttonFakeNews;
+    private ImageView imageViewURLYoutube;
     private FirebaseAuth mAuth;
+
     private String email;
 
     View myFragment;
@@ -50,6 +54,14 @@ public class HomeFragment extends Fragment {
         buttonSintomas = (Button) myFragment.findViewById( R.id.idbuttonSintomas);
         buttonPrevencao = (Button) myFragment.findViewById( R.id.idbuttonPrevencao);
         buttonFakeNews = (Button) myFragment.findViewById( R.id.idbuttonFakeNews);
+        imageViewURLYoutube = (ImageView) myFragment.findViewById( R.id.idimageViewURLYouTube);
+
+        imageViewURLYoutube.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                gotoUrl("https://www.youtube.com/watch?v=LwUjglzIUhc");
+            }
+        });
 
 
         buttonCovid19.setOnClickListener(new View.OnClickListener(){
@@ -107,6 +119,11 @@ public class HomeFragment extends Fragment {
 
 
         return myFragment;
+    }
+
+    private void gotoUrl(String s) {
+        Uri uri = Uri.parse(s);
+        startActivity(new Intent(Intent.ACTION_VIEW,uri));
     }
 
 

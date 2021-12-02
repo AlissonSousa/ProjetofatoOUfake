@@ -49,6 +49,7 @@
             android:id="@+id/ideditTextAcessarEmail"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
             android:ems="10"
             android:importantForAutofill="no"
             android:inputType="textEmailAddress"
@@ -94,7 +95,9 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="25dp"
         android:text="Acessar"
-        android:textAllCaps="false" />
+        android:textAllCaps="false"
+        app:icon="@drawable/ic_baseline_login_24"
+        app:iconGravity="textStart" />
 
 
 
@@ -111,7 +114,8 @@
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@color/black"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <!--Ir para página de recuperar senha-->
     <TextView
@@ -126,7 +130,8 @@
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@color/black"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
 
 
