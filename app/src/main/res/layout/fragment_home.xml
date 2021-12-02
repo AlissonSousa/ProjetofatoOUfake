@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Azul_1">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/idTILBemVindoHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:padding="5dp"
+        android:textColor="@color/Branco_1"
+        android:textSize="18sp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="393dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Seja Bem Vindo!"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:typeface="serif" />
+    </com.google.android.material.textfield.TextInputLayout>>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/idTILMenuHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="5dp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textSize="18sp">
+
+        <Button
+            android:id="@+id/idbuttonCovid19"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/idTILPassword"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:text="Covid19"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/idbuttonTransmissao"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/idbuttonCovid19"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:text="Transmissão"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/idbuttonProtecao"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/idbuttonTransmissao"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:text="Proteção"
+            android:textAllCaps="false" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/idTILUserRecuperarEmail2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="5dp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textSize="18sp">
+
+
+        <Button
+            android:id="@+id/idbuttonSintomas"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/idTILPassword"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:text="Sintomas"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/idbuttonPrevencao"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/idbuttonCovid19"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:text="Prevenção"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/idbuttonFakeNews"
+            android:layout_width="170dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/idbuttonTransmissao"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:text="Fake News"
+            android:textAllCaps="false" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</RelativeLayout>

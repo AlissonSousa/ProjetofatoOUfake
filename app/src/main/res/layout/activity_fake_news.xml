@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Azul_1"
+    tools:context=".FakeNewsActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/idTILBemVindoHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:padding="5dp"
+        android:textColor="@color/Branco_1"
+        android:textSize="18sp">
+
+
+        <TextView
+            android:id="@+id/textViewProtecao"
+            android:layout_width="393dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Fake News"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="403dp"
+            android:layout_height="114dp"
+            android:layout_below="@id/textViewProtecao"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/fakenews" />
+
+        <TextView
+            android:id="@+id/textViewDescricaoProtecao"
+            android:layout_width="393dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView2"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Para combater as Fake News sobre saúde, o Ministério da Saúde, de forma inovadora, está disponibilizando um número de WhatsApp para envio de mensagens da população. Vale destacar que o canal não será um SAC ou tira dúvidas dos usuários, mas um espaço exclusivo para receber informações virais, que serão apuradas pelas áreas técnicas e respondidas oficialmente se são verdade ou mentira.  Qualquer cidadão poderá enviar gratuitamente mensagens com imagens ou textos que tenha recebido nas redes sociais para confirmar se a informação procede, antes de continuar compartilhando.
+"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/textViewDescricaoProtecao2"
+            android:layout_width="393dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView2"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="O número é (61) 99333-8597"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:typeface="serif" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</RelativeLayout>

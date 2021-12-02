@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.15" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1015625" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.11510416666666666" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/drawable/item.xml" value="0.10572916666666667" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/drawable/round_drawable.xml" value="0.1" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/drawable/slide.xml" value="0.15" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/font/poppins.xml" value="0.1" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/font/poppins_bold.xml" value="0.1" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/font/poppins_light.xml" value="0.1" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/font/poppins_medium.xml" value="0.1" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/activity_add_curso.xml" value="0.2" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/activity_covid19.xml" value="0.33" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/activity_fake_news.xml" value="0.14114583333333333" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/activity_login_cadastro.xml" value="0.22" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/activity_main_principal.xml" value="0.21" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/activity_pontuacao.xml" value="0.18697916666666667" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/activity_prevencao.xml" value="0.14114583333333333" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/activity_protecao.xml" value="0.18" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/activity_quiz.xml" value="0.1" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/activity_quiz_total.xml" value="0.22" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/activity_recuperar_senha.xml" value="0.22" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/activity_sintoma.xml" value="0.2" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/activity_transmissao.xml" value="0.14114583333333333" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/activity_view_pager_slide.xml" value="0.1" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/fragment_covid19.xml" value="0.1" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/fragment_favorites.xml" value="0.1" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/fragment_home.xml" value="0.1359375" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/fragment_notifications.xml" value="0.1" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/fragment_novidades.xml" value="0.115625" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/fragment_pontuacao.xml" value="0.1" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/fragment_quiz.xml" value="0.2" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/fragment_search.xml" value="0.1" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/layout/slider_layout.xml" value="0.13385416666666666" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/menu/bottom_navigation.xml" value="0.25" />
+        <entry key="..\:/ionic/ProjetoFF/app/src/main/res/menu/menu_main_principal.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

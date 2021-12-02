@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Azul_1"
+    tools:context=".SintomaActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/idTILBemVindoHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:padding="5dp"
+        android:textColor="@color/Branco_1"
+        android:textSize="18sp">
+
+
+        <TextView
+            android:id="@+id/textViewProtecao"
+            android:layout_width="393dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Quais são os sintomas do novo coronavírus?"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="403dp"
+            android:layout_height="128dp"
+            android:layout_below="@id/textViewProtecao"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sintoma" />
+
+        <TextView
+            android:id="@+id/textViewDescricaoProtecao"
+            android:layout_width="393dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView2"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Os sintomas da COVID-19 podem variar de um resfriado, a uma Síndrome Gripal-SG (presença de um quadro respiratório agudo, caracterizado por, pelo menos dois dos seguintes sintomas: sensação febril ou febre associada a dor de garganta, dor de cabeça, tosse, coriza) até uma pneumonia severa. Sendo os sintomas mais comuns:"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/textViewDescricaoProtecao2"
+            android:layout_width="393dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView2"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Tosse, Febre, Coriza, Dor de garganta, Dificuldade para respirar, Perda de olfato , Alteração do paladar ,Alteração do paladar (ageusia), Distúrbios gastrintestinais (náuseas/vômitos/diarreia), Cansaço (astenia), Diminuição do apetite (hiporexia), Dispnéia ( falta de ar)"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:typeface="serif" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</RelativeLayout>

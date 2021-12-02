@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Azul_1"
+    tools:context=".TransmissaoActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/idTILBemVindoHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:padding="5dp"
+        android:textColor="@color/Branco_1"
+        android:textSize="18sp">
+
+
+        <TextView
+            android:id="@+id/textViewProtecao"
+            android:layout_width="393dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Como é transmitido?"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="403dp"
+            android:layout_height="219dp"
+            android:layout_below="@id/textViewProtecao"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/transmicao" />
+
+        <TextView
+            android:id="@+id/textViewDescricaoProtecao"
+            android:layout_width="393dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView2"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="De acordo com as evidências mais atuais, o SARS-CoV-2, da mesma forma que outros vírus respiratórios, é transmitido principalmente por três modos: contato, gotículas ou por aerossol."
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:typeface="serif" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</RelativeLayout>
